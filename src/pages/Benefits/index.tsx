@@ -17,19 +17,19 @@ const benefits: IBenefits[] = [
         id: "75f79fec-9f15-4d8e-81d9-84f3caede775",
         icon: <Barbell className="h-6 w-6" />,
         title: "State of the Art Facilities",
-        description: "Neque adipiscing amet amet enim. Feugiat dolor enim fermentum in a in lectus pellentesque. Ullamcorper et."
+        description: "Discover our state-of-the-art gym facilities! Enjoy modern exercise equipment, spacious areas, and motivating environments to help you achieve your fitness goals. Come and experience excellence in fitness!"
     },
     {
         id: "86adb601-a39a-4498-ac01-f73652b8306c",
         icon: <UserSquare className="h-6 w-6" />,
         title: "100's of Diverse Classes",
-        description: "Eu ipsum id egestas risus tempus enim semper felis quis. Nec consectetur ac venenatis facilisi est. Eget ac turpis id."
+        description: "Discover the power of variety at our gym! With an extensive schedule of over hundreds of classes, including HIIT, Pilates, boot camp, and more, you'll find endless opportunities to challenge yourself and reach new fitness heights."
     },
     {
         id: "5ebc8605-3f9a-4048-8f68-a54f1ad82d15",
         icon: <GraduationCap className="h-6 w-6" />,
         title: "Expert and Pro Trainers",
-        description: "Fusce vestibulum aliquam ut cras. Nisl lectus egestas sapien nisl. Lacus at mi sit pellentesque. Congue parturient."
+        description: "Train with the best! Our gym is proud to have a team of expert and professional trainers who are dedicated to helping you reach your fitness goals. Get personalized guidance, professional expertise, and unwavering support on your fitness journey."
     },
 ];
 
@@ -136,18 +136,10 @@ export function Benefits({ setSelectedPage }: IProps) {
                             }}
                         >
                             <p className="my-5">
-                                Nascetur aenean massa auctor tincidunt. Iaculis potenti amet
-                                egestas ultrices consectetur adipiscing ultricies enim. Pulvinar
-                                fames vitae vitae quis. Quis amet vulputate tincidunt at in
-                                nulla nec. Consequat sed facilisis dui sit egestas ultrices
-                                tellus. Ullamcorper arcu id pretium sapien proin integer nisl.
-                                Felis orci diam odio.
+                            At our gym, the happiness and satisfaction of our clients are our greatest achievement. We take pride in providing a welcoming and motivating environment, state-of-the-art equipment, and a team of passionate and dedicated instructors. Here, our clients find a place where their fitness goals become a reality while enjoying constant and uplifting support
                             </p>
                             <p className="mb-5">
-                                Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
-                                tellus quam porttitor. Mauris velit euismod elementum arcu neque
-                                facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
-                                enim mattis odio in risus nunc.
+                            Seeing the smiles on our clients' faces and hearing the inspiring testimonials of their transformative journeys is proof that we are fulfilling our mission to promote health, well-being, and happiness in their lives. Join us and become part of this vibrant community where satisfaction is our motto.
                             </p>
                         </motion.div>
                         {/* BUTTON */}

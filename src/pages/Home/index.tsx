@@ -5,7 +5,7 @@ import { SelectedPage } from "../../shared/types";
 import { ActionButton } from "../../components/ActionButton";
 import { useMediaQuery } from "../../hooks/useMediaQueries";
 
-import HomePageText from "../../assets/HomePageText.png";
+import HomePageText from "../../assets/Logo-slogan.svg";
 import HomePageGraphic from "../../assets/HomePageGraphic.png";
 import SponsorForbes from "../../assets/SponsorForbes.png";
 import SponsorFortune from "../../assets/SponsorFortune.png";
@@ -34,7 +34,7 @@ export function Home ({ setSelectedPage }: IProps) {
                 <div className="z-10 mt-32 md:basis-3/5">
                      {/* Headings */}
                      <motion.div 
-                        className="md:-mt-20"
+                        className="md:-mt-22"
                         initial="hidden"
                         whileInView="visible"
                         transition={{ duration: 1 }}

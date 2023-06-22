@@ -59,9 +59,7 @@ export function ContactUs({ setSelectedPage }: IProps) {
                         TO GET IN SHAPE
                     </HText>
                     <p className="py-5">
-                        There are many variations of passages of Lorem Ipsum available,
-                        but the majority have suffered alteration in some form, by injected humour,
-                        or randomised words which don't look even slightly believable.
+                    Ready to transform your health and well-being? Fill out the form below and start your fitness journey with us
                     </p>
                 </motion.div>
 

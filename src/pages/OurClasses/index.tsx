@@ -15,20 +15,19 @@ const classes: IClass[] = [
     {
         id: "dc25bbdf-95af-4d83-acee-e5a584a545cd",
         name: "Weight Training Classes",
-        description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        description:"Perfect your strength and sculpt your muscles with our weightlifting classes. Our specialized trainers will guide you through effective routines, providing personalized guidance and proper techniques. Get ready to reach new levels of strength and achieve the body of your dreams!",
         image: Image1,
     },
     {
         id: "c9fdb258-f90e-4dac-b6ad-e0027049a0f7",
         name: "Yoga Classes",
+        description: "Find inner peace and strengthen your body with our yoga classes. Our experienced instructors will guide you through practices that combine postures, breathing, and meditation, providing a perfect balance of relaxation and strength. Come connect with yourself and discover the transformative benefits of yoga.",
         image: Image2,
     },
     {
         id: "d3730487-b937-40c1-acfb-a19ff2a75919",
         name: "Ab Core Classes",
-        description:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        description:"Achieve a stronger core with our basic abdominal classes. Designed for beginners and practitioners of all levels, these focused classes provide effective training to strengthen and tone the abdominal muscles. Join us to push your limits and achieve visible results!",
         image: Image3,
     },
     {
@@ -81,10 +80,7 @@ export function OurClasses({ setSelectedPage }: IProps) {
                 >
                     <HText>OUR CLASSES</HText>
                     <p className="py-5">
-                        Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
-                        tellus quam porttitor. Mauris velit euismod elementum arcu neque
-                        facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
-                        enim mattis odio in risus nunc.
+                    Our classes are dynamic, engaging, and designed to cater to all fitness levels. With an experienced team of instructors, we offer a variety of classes ranging from high-intensity strength and cardio training to more soothing options like yoga and stretching
                     </p>
                 </motion.div>
                 <div className="mt-10 h-[353px] w-full overflow-x-auto overflow-y-hidden">

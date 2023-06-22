@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 import { List, X } from "phosphor-react";
 
-import Logo from "../../assets/Logo.png";
+import Logo from "../../assets/Logo-Gym.svg";
 import { Link } from "./Link";
 import { SelectedPage } from "../../shared/types";
 import { useMediaQuery } from "../../hooks/useMediaQueries";
